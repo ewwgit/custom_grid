@@ -1,0 +1,21 @@
+{
+    "name": "eww/custom-grid",
+    "description": "all customizations",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "vinod",
+            "email": "satya@expertwebworx.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "frontend\\custom\\": ""
+        }
+    }
+}
